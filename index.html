@@ -1,48 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template Project</title>
+  <title>Scott</title>
   <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
   <link rel="stylesheet" href="./css/main.css">
   <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
 </head>
+
 <body>
   <!-- SITE HEADER START -->
   <header class="site-header">
     <div class="container">
-
+      <div class="header-box">
+        <a class="header-box__logo-link" href="./index.html">
+          <img src="./images/logo.svg" width="108" height="29" alt="Scott site's logo">
+        </a>
+        <nav class="header-box__nav">
+          <ul class="header-box__list">
+            <li class="header-box__item">
+              <a class="header-box__item-link" href="#">About</a>
+            </li>
+            <li class="header-box__item">
+              <a class="header-box__item-link" href="#">Location</a>
+            </li>
+            <li class="header-box__item">
+              <a class="header-box__item-link" href="#">Careers</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="header-box__link" href="#">Get Scootin</a>
+      </div>
     </div>
   </header>
   <!-- SITE HEADER END -->
   <!-- SITE MAIN START -->
   <main>
-    <!-- SECTION START -->
-    <section>
+    <!-- SECTION SIMPLE START -->
+    <section class="simple">
       <div class="container">
-
+        <div class="simple-box">
+          <h1 class="simple-box__title">Scooter sharing made simple</h1>
+          <p class="simple-box__text">
+            Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in each of our
+            cities. Use our app to locate the nearest bike, unlock it with a tap, and you’re away!
+          </p>
+          <a class="simple-box__link">Get Scootin</a>
+        </div>
       </div>
     </section>
     <!-- SECTION END -->
     <!-- SECTION START -->
-    <section>
+    <section class="locate">
       <div class="container">
-
+        <h2 class="visually-hidden">Locate</h2>
+        <ul class="locate__list">
+          <li class="locate__item">
+            <h3 class="locate__title">Locate with app</h3>
+            <p class="locate__text">
+              Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with
+              most demand, so one should never be too far away.
+            </p>
+          </li>
+          <li class="locate__item">
+            <h3 class="locate__title">Pick your scooter</h3>
+            <p class="locate__text">
+              We show the most important info for the scooters closest to you. So you know how much charge they have
+              left and can see roughly how much it will cost.
+            </p>
+          </li>
+          <li class="locate__item">
+            <h3 class="locate__title">Enjoy the ride</h3>
+            <p class="locate__text">
+              Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off! Always
+              lock bikes away from walkways and accessibility ramps.
+            </p>
+          </li>
+        </ul>
       </div>
     </section>
-    <!-- SECTION END -->
+    <!-- SECTION LOCATE END -->
+
+    <!-- SECTION EASY START -->
+    <section class="easy">
+      <div class="container">
+        <ul class="easy-list">
+          <li class="easy-list__item">
+            <div class="easy-list__box">
+              <h2 class="easy-list__title">
+                Easy to use riding telemetry
+              </h2>
+              <p class="easy-list__text">
+                The Scoot app is available with riding telemetry. This means it can show you your average speed, how
+                long you've been using the scooter, your traveling distance, and many more things all in an easy to use
+                app.
+              </p>
+              <a class="easy-list__link" href="#">Learn More</a>
+            </div>
+            <img src="./images/easy.png" srcset="./images/easy.png 1x, ./images/easy-retina.png 2x" width="380"
+              height="380" alt="Easy">
+          </li>
+          <li class="easy-list__item">
+            <div class="easy-list__box">
+              <h2 class="easy-list__title">
+                Coming to a city near you
+              </h2>
+              <p class="easy-list__text">
+                Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure to let us know if you
+                want to see us in your hometown. We’re aiming to let our scooters loose on 23 cities over the coming
+                year.
+              </p>
+              <a class="easy-list__link" href="#">Learn More</a>
+            </div>
+            <img src="./images/coming.png" srcset="./images/coming.png 1x, ./images/coming-retina.png 2x" width="380"
+              height="380" alt="Easy">
+          </li>
+          <li class="easy-list__item">
+            <div class="easy-list__box">
+              <h2 class="easy-list__title">
+                Easy to use riding telemetry
+              </h2>
+              <p class="easy-list__text">
+                The Scoot app is available with riding telemetry. This means it can show you your average speed, how
+                long you've been using the scooter, your traveling distance, and many more things all in an easy to use
+                app.
+              </p>
+              <a class="easy-list__link" href="#">Learn More</a>
+            </div>
+            <img class="easy-list__img" src="./images/zero.png"
+              srcset="./images/zero.png 1x, ./images/zero-retina.png 2x" width="380" height="380" alt="Easy">
+          </li>
+        </ul>
+      </div>
+    </section>
   </main>
   <!-- SITE MAIN END-->
-
+  <article class="article-sign">
+    <div class="container">
+      <div class="article-sign__primary">
+        <div class="article-sign__box">
+          <h2 class="article-sign__title">
+            Sign up and Scoot off today
+          </h2>
+        </div>
+        <ul class="article-sign__list">
+          <li class="article-sign__item">
+            <a class="article-sign__link" target="blank" href="#">
+              <p class="article-sign__text">Available on the</p>
+              <p class="article-sign__text-store">AppStore</p>
+            </a>
+          </li>
+          <li class="article-sign__item">
+            <a class="article-sign__link" target="blank" href="#">
+              <p class="article-sign__text">Get it on</p>
+              <p class="article-sign__text-store">GooglePlay</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </article>
   <!-- SITE FOOTER START -->
   <footer class="site-footer">
     <div class="container">
-
+      <div class="site-footer__footer-box footer-box">
+        <a class="footer-box__link"  href="./index.html">
+          <img src="./images/logo-footer.svg" 
+          width="108"
+          height="29"
+          alt="Scott site's logo">
+        </a>
+        <ul class="header-box__list">
+          <li class="header-box__item">
+            <a class="header-box__item-link--color" href="#">About</a>
+          </li>
+          <li class="header-box__item">
+            <a class="header-box__item-link--color" href="#">Location</a>
+          </li>
+          <li class="header-box__item">
+            <a class="header-box__item-link--color" href="#">Careers</a>
+          </li>
+        </ul>
+        <ul class="footer-box__list">
+          <li class="footer-box__item">
+            <a class="footer-box__icon-link" target="blank" href="#">
+              <img src="./images/facebook.svg" 
+              width="24"
+              height="24"
+              alt="facebook">
+            </a>
+          </li>
+          <li class="footer-box__item">
+            <a class="footer-box__icon-link" target="blank" href="#">
+              <img src="./images/twitter.svg" 
+              width="24"
+              height="20"
+              alt="twitter">
+            </a>
+          </li>
+          <li class="footer-box__item">
+            <a class="footer-box__icon-link" target="blank" href="#">
+              <img src="./images/instagram.svg" 
+              width="24"
+              height="24"
+              alt="instagram">
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </footer>
   <!-- SITE FOOTER END -->
 
 </body>
+
 </html>
