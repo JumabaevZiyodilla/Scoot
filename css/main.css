@@ -666,7 +666,7 @@ a {
   cursor: pointer;
 }
 
-.faqs-list__details[open] .faqs-list__icon {
+details[open] .faqs-list__icon {
   transform: rotate(180deg);
   transition: transform 0.5s ease;
 }
